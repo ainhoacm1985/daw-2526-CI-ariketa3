@@ -7,6 +7,8 @@ class Hola {
         return "Hola Mundo";
     }
 }
+?>
 <p>hola que tal<p/>
+
 
 
