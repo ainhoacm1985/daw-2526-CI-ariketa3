@@ -22,6 +22,5 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i key.pem $USER@$HOST '
             cd /var/www/ariketa3/daw-2526-CI-ariketa3/src && \
             git pull origin main && \
-            composer install --no-dev && \
             echo "✅ Despliegue completado correctamente."
           '
